@@ -10,7 +10,7 @@ libuv is a multi-platform C library that provides support for asynchronous I/O-b
 
 ### libuv thread pool
 
-The libuv thread pool is a fixed-size thread pool that libuv uses to offload operations that are potentially blocking, thereby ensuring that the main event loop is not blocked. This pool is particularly useful for handling operations that are I/O-bound or CPU-bound but cannot be processed in a non-blocking way due to system-level constraints. These operations include, but are not limited to:
+The libuv thread pool is a fixed-size thread pool that libuv uses to offload operations that are potentially blocking, thereby ensuring that the main event loop is not blocked. This pool is particularly useful for handling operations that are I/O-bound or CPU-bound but cannot be processed in a non-blocking way due to system-level constraints. 
 
 #### UV_THREADPOOL_SIZE
 
